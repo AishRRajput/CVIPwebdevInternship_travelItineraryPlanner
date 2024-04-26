@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Itinerary Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Travel Itinerary Planner</h1>
+        </header>
+        <main>
+            <section id="destination-section">
+                <h2>Add Destination</h2>
+                <input type="text" id="destination-input" placeholder="Enter destination">
+                <button id="add-destination-btn">Add Destination</button>
+            </section>
+
+            <section id="activity-section">
+                <h2>Add Activity</h2>
+                <input type="text" id="activity-input" placeholder="Enter activity">
+                <input type="date" id="date-input">
+                <button id="add-activity-btn">Add Activity</button>
+            </section>
+
+            <section id="itinerary-section">
+                <h2>Itinerary</h2>
+                <ul id="itinerary-list">
+                    <!-- Itinerary items will be added here dynamically -->
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
